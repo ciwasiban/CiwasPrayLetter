@@ -2,12 +2,12 @@
 class PrayLetter
 {
     /** 設定寄件者資訊 **/
-    public $mailer = "LDT 領袖門訓宣教計畫同工 曉芬";
-    public $username = "xx@gmail.com";
+    public $mailer = "同工曉芬(LDT 領袖門訓宣教計畫)";
+    public $username = "xxx@gmail.com";
     public $password = "password";
 
     /** 設定信件內容 **/
-    public $subject = '平安，這是我們門訓宣教計劃11月的代禱信';
+    public $subject = '平安，這是門訓事工11月的代禱信';
     public $body = '';
 
     // 招呼語
