@@ -28,6 +28,8 @@ if ($cnt > 0) {
     foreach ($recipientList AS $recipient => $sendMail) {
         $message = $error = '';
         $num++;
+        $recipient = trim($recipient);
+        $sendMail = trim($sendMail);
         $body = str_replace(
             array('{%recipient%}'),
             array($recipient),
