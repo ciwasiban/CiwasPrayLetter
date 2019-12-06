@@ -53,7 +53,7 @@ if ($cnt > 0) {
 
             //Content
             $mail->isHTML(true);                                  // Set email format to HTML
-            $mail->Subject = sprintf('%s %s', $recipient, $PrayLetter->subject);
+            $mail->Subject = sprintf('%s%s', $recipient, $PrayLetter->subject);
             $mail->Body    = $body;
 
             $mail->send();
